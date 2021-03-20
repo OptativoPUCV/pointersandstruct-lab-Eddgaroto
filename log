@@ -1,0 +1,2308 @@
+Fri Mar 19 01:50:35 UTC 2021: 
+ exercises.c | 13 ++++++++++---
+ 1 file changed, 10 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c:12:3: error: expected identifier or ‘(’ before ‘[’ token
+ */[3], int N
+   ^
+Compilation failed
+Fri Mar 19 01:51:18 UTC 2021: 
+ exercises.c | 11 +++++++++--
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:28:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:14:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:28:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:14:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 01:52:27 UTC 2021: 
+ exercises.c | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:14:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ void suma(int a, int b, int * c) {
+ ^~~~
+Compilation failed
+Fri Mar 19 01:52:52 UTC 2021: 
+ exercises.c | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:14:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ void sumaN(int a, int b, int * c) {
+ ^~~~
+Compilation failed
+Fri Mar 19 01:53:45 UTC 2021: 
+ exercises.c | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:29:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:29:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 01:55:36 UTC 2021: 
+ exercises.c | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:9: error: ‘a’ undeclared here (not in a function)
+ int N = a + b;
+         ^
+exercises.c:13:13: error: ‘b’ undeclared here (not in a function)
+ int N = a + b;
+             ^
+exercises.c: In function ‘suma’:
+exercises.c:29:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:29:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 01:59:53 UTC 2021: 
+ exercises.c | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:9: error: ‘a’ undeclared here (not in a function)
+ int N = a + b;
+         ^
+exercises.c:13:13: error: ‘b’ undeclared here (not in a function)
+ int N = a + b;
+             ^
+exercises.c: In function ‘suma’:
+exercises.c:29:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:29:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:02:00 UTC 2021: 
+ exercises.c | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:10: error: ‘suma’ undeclared here (not in a function); did you mean ‘fma’?
+ int N = *suma
+          ^~~~
+          fma
+exercises.c:14:1: error: expected ‘,’ or ‘;’ before ‘void’
+ void suma(int a, int b, int * c) {
+ ^~~~
+Compilation failed
+Fri Mar 19 02:02:23 UTC 2021: 
+ exercises.c | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:10: error: ‘sumaa’ undeclared here (not in a function)
+ int N = *sumaa
+          ^~~~~
+exercises.c:14:1: error: expected ‘,’ or ‘;’ before ‘suma’
+ suma = a + b
+ ^~~~
+Compilation failed
+Fri Mar 19 02:02:51 UTC 2021: 
+ exercises.c | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:14:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘suma’
+ suma = a + b
+ ^~~~
+Compilation failed
+Fri Mar 19 02:03:02 UTC 2021: 
+ exercises.c | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:14:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘suma’
+ suma = a + b
+ ^~~~
+Compilation failed
+Fri Mar 19 02:03:04 UTC 2021: 
+ exercises.c | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:14:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘suma’
+ suma = a + b
+ ^~~~
+Compilation failed
+Fri Mar 19 02:10:28 UTC 2021: 
+ exercises.c | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:8: error: ‘total’ undeclared (first use in this function); did you mean ‘tot’?
+        total += a[i];
+        ^~~~~
+        tot
+exercises.c:20:8: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c: In function ‘suma’:
+exercises.c:29:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:29:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:11:31 UTC 2021: 
+ exercises.c | 15 +++++++++++++--
+ 1 file changed, 13 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:16:9: error: initializer element is not constant
+ int c = a + b;
+         ^
+exercises.c: In function ‘sumaN’:
+exercises.c:23:8: error: ‘total’ undeclared (first use in this function); did you mean ‘tot’?
+        total += a[i];
+        ^~~~~
+        tot
+exercises.c:23:8: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c: In function ‘suma’:
+exercises.c:32:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:18:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:32:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:18:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:11:46 UTC 2021: 
+ exercises.c | 15 +++++++++++++--
+ 1 file changed, 13 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:16:9: error: initializer element is not constant
+ int c = a + b;
+         ^
+exercises.c: In function ‘suma’:
+exercises.c:32:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:18:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:32:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:18:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:12:33 UTC 2021: 
+ exercises.c | 16 ++++++++++++++--
+ 1 file changed, 14 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:16:9: error: initializer element is not constant
+ int c = a + b;
+         ^
+exercises.c:17:1: error: data definition has no type or storage class [-Werror]
+ suma(a,b,c);
+ ^~~~
+exercises.c:17:1: error: type defaults to ‘int’ in declaration of ‘suma’ [-Werror=implicit-int]
+exercises.c:17:1: error: parameter names (without types) in function declaration [-Werror]
+exercises.c:18:6: error: conflicting types for ‘suma’
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:17:1: note: previous declaration of ‘suma’ was here
+ suma(a,b,c);
+ ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:33:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:19:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:33:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:19:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:12:50 UTC 2021: 
+ exercises.c | 16 ++++++++++++++--
+ 1 file changed, 14 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:16:9: error: initializer element is not constant
+ int c = a + b;
+         ^
+exercises.c:17:1: error: data definition has no type or storage class [-Werror]
+ suma(a, b, c);
+ ^~~~
+exercises.c:17:1: error: type defaults to ‘int’ in declaration of ‘suma’ [-Werror=implicit-int]
+exercises.c:17:1: error: parameter names (without types) in function declaration [-Werror]
+exercises.c:18:6: error: conflicting types for ‘suma’
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:17:1: note: previous declaration of ‘suma’ was here
+ suma(a, b, c);
+ ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:33:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:19:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:33:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:19:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:13:53 UTC 2021: 
+ exercises.c | 17 +++++++++++++++--
+ 1 file changed, 15 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:13:10: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ int main {}
+          ^
+exercises.c:17:9: error: initializer element is not constant
+ int c = a + b;
+         ^
+exercises.c:18:1: error: data definition has no type or storage class [-Werror]
+ suma(a, b, c);
+ ^~~~
+exercises.c:18:1: error: type defaults to ‘int’ in declaration of ‘suma’ [-Werror=implicit-int]
+exercises.c:18:1: error: parameter names (without types) in function declaration [-Werror]
+exercises.c:19:6: error: conflicting types for ‘suma’
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:18:1: note: previous declaration of ‘suma’ was here
+ suma(a, b, c);
+ ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:34:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:20:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:34:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:20:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:14:09 UTC 2021: 
+ exercises.c | 17 +++++++++++++++--
+ 1 file changed, 15 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:18:1: error: implicit declaration of function ‘suma’; did you mean ‘fma’? [-Werror=implicit-function-declaration]
+ suma(a, b, c);
+ ^~~~
+ fma
+exercises.c:19:6: error: conflicting types for ‘suma’ [-Werror]
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:19:6: error: static declaration of ‘suma’ follows non-static declaration
+exercises.c:18:1: note: previous implicit declaration of ‘suma’ was here
+ suma(a, b, c);
+ ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:34:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:20:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+test.c: In function ‘main’:
+test.c:272:1: error: expected declaration or statement at end of input
+In file included from test.c:5:0:
+exercises.c:14:5: error: unused variable ‘N’ [-Werror=unused-variable]
+ int N;
+     ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:34:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:20:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:14:26 UTC 2021: 
+ exercises.c | 17 +++++++++++++++--
+ 1 file changed, 15 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:18:1: error: implicit declaration of function ‘suma’; did you mean ‘fma’? [-Werror=implicit-function-declaration]
+ suma (a, b, c);
+ ^~~~
+ fma
+exercises.c:19:6: error: conflicting types for ‘suma’ [-Werror]
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:19:6: error: static declaration of ‘suma’ follows non-static declaration
+exercises.c:18:1: note: previous implicit declaration of ‘suma’ was here
+ suma (a, b, c);
+ ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:34:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:20:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+test.c: In function ‘main’:
+test.c:272:1: error: expected declaration or statement at end of input
+In file included from test.c:5:0:
+exercises.c:14:5: error: unused variable ‘N’ [-Werror=unused-variable]
+ int N;
+     ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:34:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:20:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:16:06 UTC 2021: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:14:9: error: expected ‘)’ before ‘,’ token
+   int (a, b, c);
+         ^
+exercises.c:15:3: error: implicit declaration of function ‘suma’; did you mean ‘fma’? [-Werror=implicit-function-declaration]
+   suma (&a,&b,&c);
+   ^~~~
+   fma
+exercises.c:15:10: error: ‘a’ undeclared (first use in this function)
+   suma (&a,&b,&c);
+          ^
+exercises.c:15:10: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:15:13: error: ‘b’ undeclared (first use in this function)
+   suma (&a,&b,&c);
+             ^
+exercises.c:15:16: error: ‘c’ undeclared (first use in this function)
+   suma (&a,&b,&c);
+                ^
+exercises.c:16:6: error: conflicting types for ‘suma’ [-Werror]
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:16:6: error: static declaration of ‘suma’ follows non-static declaration
+exercises.c:15:3: note: previous implicit declaration of ‘suma’ was here
+   suma (&a,&b,&c);
+   ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:31:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+test.c: In function ‘main’:
+test.c:272:1: error: expected declaration or statement at end of input
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:31:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:16:41 UTC 2021: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:15:3: error: implicit declaration of function ‘suma’; did you mean ‘fma’? [-Werror=implicit-function-declaration]
+   suma(&a,&b,&c);
+   ^~~~
+   fma
+exercises.c:16:6: error: conflicting types for ‘suma’ [-Werror]
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:16:6: error: static declaration of ‘suma’ follows non-static declaration
+exercises.c:15:3: note: previous implicit declaration of ‘suma’ was here
+   suma(&a,&b,&c);
+   ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:31:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+test.c: In function ‘main’:
+test.c:272:1: error: expected declaration or statement at end of input
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:31:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:16:45 UTC 2021: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:15:4: error: implicit declaration of function ‘suma’; did you mean ‘fma’? [-Werror=implicit-function-declaration]
+    suma(&a,&b,&c);
+    ^~~~
+    fma
+exercises.c:16:6: error: conflicting types for ‘suma’ [-Werror]
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:16:6: error: static declaration of ‘suma’ follows non-static declaration
+exercises.c:15:4: note: previous implicit declaration of ‘suma’ was here
+    suma(&a,&b,&c);
+    ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:31:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+test.c: In function ‘main’:
+test.c:272:1: error: expected declaration or statement at end of input
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:31:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:16:46 UTC 2021: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘main’:
+exercises.c:15:4: error: implicit declaration of function ‘suma’; did you mean ‘fma’? [-Werror=implicit-function-declaration]
+    suma(&a,&b,&c);
+    ^~~~
+    fma
+exercises.c:16:6: error: conflicting types for ‘suma’ [-Werror]
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:16:6: error: static declaration of ‘suma’ follows non-static declaration
+exercises.c:15:4: note: previous implicit declaration of ‘suma’ was here
+    suma(&a,&b,&c);
+    ^~~~
+exercises.c: In function ‘suma’:
+exercises.c:31:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+test.c: In function ‘main’:
+test.c:272:1: error: expected declaration or statement at end of input
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:31:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:18:19 UTC 2021: 
+ exercises.c | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:1: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘void’
+ void suma(int a, int b, int * c) {
+ ^~~~
+Compilation failed
+Fri Mar 19 02:18:56 UTC 2021: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:3: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘suma’
+   suma (&a,&b,&c)
+   ^~~~
+Compilation failed
+Fri Mar 19 02:18:58 UTC 2021: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:3: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘suma’
+   suma (&a,&b,&c)
+   ^~~~
+Compilation failed
+Fri Mar 19 02:18:59 UTC 2021: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+Fri Mar 19 02:19:43 UTC 2021: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:3: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘suma’
+   suma (&a,&b,&c)
+   ^~~~
+Compilation failed
+Fri Mar 19 02:19:56 UTC 2021: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:3: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘suma’
+   suma (&a,&b,&c);
+   ^~~~
+Compilation failed
+Fri Mar 19 02:20:29 UTC 2021: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:3: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘suma’
+   suma (&a,&b,&c);
+   ^~~~
+Compilation failed
+Fri Mar 19 02:20:52 UTC 2021: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:3: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘suma’
+   suma (&a, &b, &c);
+   ^~~~
+Compilation failed
+Fri Mar 19 02:21:07 UTC 2021: 
+ exercises.c | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:3: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘suma’
+   suma (&a, &b, &c);
+   ^~~~
+Compilation failed
+Fri Mar 19 02:22:08 UTC 2021: 
+ exercises.c | 15 +++++++++++++--
+ 1 file changed, 13 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c:15:3: error: expected ‘:’, ‘,’, ‘;’, ‘}’ or ‘__attribute__’ before ‘suma’
+   suma (&a, &b, &c);
+   ^~~~
+exercises.c:17:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ void suma(int a, int b, int * c) {
+ ^~~~
+Compilation failed
+Fri Mar 19 02:39:43 UTC 2021: 
+ exercises.c | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c:15:9: error: initializer element is not constant
+ int N = a + b;
+         ^
+exercises.c: In function ‘suma’:
+exercises.c:32:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:18:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:32:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:18:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:41:28 UTC 2021: 
+ exercises.c | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c:14:9: error: ‘a’ undeclared here (not in a function)
+ int N = a + b;
+         ^
+exercises.c:14:13: error: ‘b’ undeclared here (not in a function)
+ int N = a + b;
+             ^
+exercises.c: In function ‘suma’:
+exercises.c:31:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:31:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:42:27 UTC 2021: 
+ exercises.c | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c:13:10: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ int main {}
+          ^
+exercises.c:14:9: error: ‘a’ undeclared here (not in a function)
+ int N = a + b;
+         ^
+exercises.c:14:13: error: ‘b’ undeclared here (not in a function)
+ int N = a + b;
+             ^
+exercises.c: In function ‘suma’:
+exercises.c:31:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:31:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:42:52 UTC 2021: 
+ exercises.c | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c:13:10: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ int main {}
+          ^
+exercises.c:14:10: error: ‘a’ undeclared here (not in a function)
+  int N = a + b;
+          ^
+exercises.c:14:14: error: ‘b’ undeclared here (not in a function)
+  int N = a + b;
+              ^
+exercises.c: In function ‘suma’:
+exercises.c:31:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:31:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:17:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:49:10 UTC 2021: 
+ exercises.c | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:23:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+exercises.c:26:6: error: expected ‘;’ before ‘return’
+      return tot;
+      ^~~~~~
+exercises.c:27:1: error: no return statement in function returning non-void [-Werror=return-type]
+ }
+ ^
+exercises.c: In function ‘suma’:
+exercises.c:32:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:32:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:49:28 UTC 2021: 
+ exercises.c | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:23:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+exercises.c:26:6: error: expected ‘;’ before ‘return’
+      return tot;
+      ^~~~~~
+exercises.c:27:1: error: no return statement in function returning non-void [-Werror=return-type]
+ }
+ ^
+exercises.c: In function ‘suma’:
+exercises.c:32:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:32:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:50:01 UTC 2021: 
+ exercises.c | 14 +++++++++++++-
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:19:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+exercises.c:22:6: error: expected ‘;’ before ‘for’
+      for(i = 0; i < N; i++) {
+      ^~~
+exercises.c:17:10: error: unused variable ‘tot’ [-Werror=unused-variable]
+      int tot = 0;
+          ^~~
+exercises.c:16:10: error: unused variable ‘i’ [-Werror=unused-variable]
+      int i;
+          ^
+exercises.c:28:1: error: no return statement in function returning non-void [-Werror=return-type]
+ }
+ ^
+exercises.c: In function ‘suma’:
+exercises.c:33:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:33:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:51:28 UTC 2021: 
+ exercises.c | 14 +++++++++++++-
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:18:3: error: expected ‘;’ before ‘int’
+   int sumaN(int a[3], int N) {
+   ^~~
+exercises.c:69:1: error: unknown type name ‘Persona’
+ Persona* crearPersona(char nombre[], char rut[], int edad) {
+ ^~~~~~~
+exercises.c:69:60: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ Persona* crearPersona(char nombre[], char rut[], int edad) {
+                                                            ^
+test.c: In function ‘test_suma_n’:
+test.c:97:5: error: implicit declaration of function ‘sumaNultimos’ [-Werror=implicit-function-declaration]
+     sumaNultimos(a, 10, m, res);
+     ^~~~~~~~~~~~
+test.c: In function ‘test_creaP’:
+test.c:111:5: error: unknown type name ‘Persona’
+     Persona* p=crearPersona(nombre, "15489XXX-2", edad);
+     ^~~~~~~
+test.c:111:16: error: implicit declaration of function ‘crearPersona’; did you mean ‘crearVector’? [-Werror=implicit-function-declaration]
+     Persona* p=crearPersona(nombre, "15489XXX-2", edad);
+                ^~~~~~~~~~~~
+                crearVector
+test.c:111:16: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+test.c:119:16: error: request for member ‘nombre’ in something not a structure or union
+     if(strcmp(p->nombre,nombre)!=0){
+                ^~
+test.c:120:37: error: request for member ‘nombre’ in something not a structure or union
+         sprintf(msg,"p->nombre=%s",p->nombre);
+                                     ^~
+test.c:125:9: error: request for member ‘edad’ in something not a structure or union
+     if(p->edad!=edad){
+         ^~
+test.c:126:35: error: request for member ‘edad’ in something not a structure or union
+         sprintf(msg,"p->edad=%d",p->edad);
+                                   ^~
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:52:29 UTC 2021: 
+ exercises.c | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:25:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+exercises.c:27:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+exercises.c:27:1: error: no return statement in function returning non-void [-Werror=return-type]
+exercises.c: In function ‘suma’:
+exercises.c:32:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:32:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:52:55 UTC 2021: 
+ exercises.c | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:25:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+exercises.c:27:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+exercises.c:27:1: error: no return statement in function returning non-void [-Werror=return-type]
+exercises.c: In function ‘suma’:
+exercises.c:32:5: error: redefinition of ‘sumaN’
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: note: previous definition of ‘sumaN’ was here
+   int sumaN(int a[3], int N) {
+       ^~~~~
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:32:5: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+ int sumaN(int a[], int N) {
+     ^~~~~
+exercises.c:15:7: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+   int sumaN(int a[3], int N) {
+       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:55:26 UTC 2021: 
+ exercises.c | 11 ++++-------
+ 1 file changed, 4 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:17:6: error: expected expression before ‘=’ token
+   c* = aux;
+      ^
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:18:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:55:48 UTC 2021: 
+ exercises.c | 11 ++++-------
+ 1 file changed, 4 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:17:7: error: expected expression before ‘=’ token
+    c* = aux;
+       ^
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:18:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:56:30 UTC 2021: 
+ exercises.c | 7 +------
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 02:57:16 UTC 2021: 
+ exercises.c | 10 ++++------
+ 1 file changed, 4 insertions(+), 6 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:23:14: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+          aux = a + b;
+              ^
+exercises.c:24:13: error: expected expression before ‘=’ token
+          c* = aux;
+             ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:00:34 UTC 2021: 
+ exercises.c | 10 ++++------
+ 1 file changed, 4 insertions(+), 6 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:25:11: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+       aux = a + b;
+           ^
+exercises.c:27:5: error: expected ‘;’ before ‘return’
+     return tot;
+     ^~~~~~
+exercises.c:28:1: error: no return statement in function returning non-void [-Werror=return-type]
+ }
+ ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:00:59 UTC 2021: 
+ exercises.c | 12 +++++-------
+ 1 file changed, 5 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:25:11: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+       aux = a + b;
+           ^
+exercises.c:28:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+exercises.c:28:1: error: no return statement in function returning non-void [-Werror=return-type]
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:01:39 UTC 2021: 
+ exercises.c | 12 +++++-------
+ 1 file changed, 5 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:25:11: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+       aux = a + b;
+           ^
+exercises.c:28:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+exercises.c:28:1: error: no return statement in function returning non-void [-Werror=return-type]
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:02:34 UTC 2021: 
+ exercises.c | 12 +++++-------
+ 1 file changed, 5 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:25:11: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+       aux = a + b;
+           ^
+exercises.c:28:1: error: no return statement in function returning non-void [-Werror=return-type]
+ }
+ ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:02:47 UTC 2021: 
+ exercises.c | 11 ++++-------
+ 1 file changed, 4 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:25:11: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+       aux = a + b;
+           ^
+exercises.c:27:4: error: no return statement in function returning non-void [-Werror=return-type]
+    }
+    ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:03:46 UTC 2021: 
+ exercises.c | 11 ++++-------
+ 1 file changed, 4 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+exercises.c:27:4: error: no return statement in function returning non-void [-Werror=return-type]
+    }
+    ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:04:05 UTC 2021: 
+ exercises.c | 12 +++++-------
+ 1 file changed, 5 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+exercises.c:27:7: error: no return statement in function returning non-void [-Werror=return-type]
+       }
+       ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:04:20 UTC 2021: 
+ exercises.c | 11 ++++-------
+ 1 file changed, 4 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+exercises.c:27:1: error: no return statement in function returning non-void [-Werror=return-type]
+ }
+ ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:05:03 UTC 2021: 
+ exercises.c | 13 +++++--------
+ 1 file changed, 5 insertions(+), 8 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+exercises.c:27:1: error: no return statement in function returning non-void [-Werror=return-type]
+ }
+ ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[3], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:05:05 UTC 2021: 
+ exercises.c | 13 +++++--------
+ 1 file changed, 5 insertions(+), 8 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+exercises.c:27:1: error: no return statement in function returning non-void [-Werror=return-type]
+ }
+ ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[3], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:05:14 UTC 2021: 
+ exercises.c | 13 +++++--------
+ 1 file changed, 5 insertions(+), 8 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:16:18: error: size of array ‘a’ has non-integer type
+    int sumaN(int a[c], int N) {
+                  ^
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+exercises.c:27:1: error: no return statement in function returning non-void [-Werror=return-type]
+ }
+ ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[c], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:05:19 UTC 2021: 
+ exercises.c | 11 ++++-------
+ 1 file changed, 4 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+exercises.c:27:1: error: no return statement in function returning non-void [-Werror=return-type]
+ }
+ ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:07:20 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+exercises.c:28:14: error: return makes integer from pointer without a cast [-Werror=int-conversion]
+       return NULL;
+              ^~~~
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:07:30 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:08:13 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:08:15 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:08:16 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:08:16 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:08:17 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:08:17 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:08:18 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = a + b;
+          ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:08:47 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = (a + b);
+          ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:09:09 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:10: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+      aux = (a + b);
+          ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Fri Mar 19 03:16:50 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:8: error: expected expression before ‘=’ token
+        = (a + b);
+        ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 20 05:30:52 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:12: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+        aux = (a + b);
+            ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 20 05:31:11 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:14: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+          aux = (a + b);
+              ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 20 05:31:19 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:8: error: invalid type argument of unary ‘*’ (have ‘int’)
+        *aux = (a + b);
+        ^~~~
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 20 05:31:25 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:20:12: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+        aux = (a + b);
+            ^
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:16:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 20 05:32:34 UTC 2021: 
+ exercises.c | 14 ++++++++------
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:20:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 20 05:36:55 UTC 2021: 
+ exercises.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+test.c: In function ‘suma’:
+test.c:250:5: error: ‘main’ is normally a non-static function [-Werror=main]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:272:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+test.c:250:5: error: ‘main’ defined but not used [-Werror=unused-function]
+ int main( int argc, char *argv[] ) {
+     ^~~~
+test.c:8:8: error: ‘_strdup’ defined but not used [-Werror=unused-function]
+ char * _strdup(const char * str) {
+        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:19:8: error: ‘sumaN’ defined but not used [-Werror=unused-function]
+    int sumaN(int a[], int N) {
+        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 20 05:37:43 UTC 2021: 
+ exercises.c | 14 ++++++++------
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:32:15: error: ‘c’ undeclared (first use in this function)
+       return *c;
+               ^
+exercises.c:32:15: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:33:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 20 05:37:55 UTC 2021: 
+ exercises.c | 14 ++++++++------
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaN’:
+exercises.c:32:15: error: ‘c’ undeclared (first use in this function)
+       return *c;
+               ^
+exercises.c:32:15: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:33:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+Sat Mar 20 05:38:00 UTC 2021: 
+ exercises.c | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+ tests:  1|6
+total_score: 10/70
+d33523a
