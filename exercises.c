@@ -83,7 +83,7 @@ Vector * crearVector(int n) {
    for(int i = 0;i < n;i++){
      p[i].capacidad = n;
    }
-   return NULL;
+   return p;
 }
 
 /*
