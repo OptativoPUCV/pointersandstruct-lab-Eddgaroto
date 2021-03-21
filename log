@@ -2335,3 +2335,9 @@ Sun Mar 21 01:25:01 UTC 2021:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 dc8cb77
+Sun Mar 21 02:02:03 UTC 2021: 
+ exercises.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+ tests:  3|4
+total_score: 30/70
+573b6a3
