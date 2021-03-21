@@ -12,25 +12,13 @@ y en c almacena el[3], int N valor de la suma de a más b.
 */
 
 void suma(int a, int b, int * c) {
-  int aux;
-     aux = (a + b);
-     *c = aux;
-     }
-       
-   int sumaN(int a[], int N) {
-     int i;
-     int tot = 0;
-     
-
-     for(i = 0; i < N; i++) {
-       tot += a[i];
-      }
+    *c = a + b;
+  }
       
       
      
 
-      return tot;
-}
+
   
 /*
 Ejercicio 2.
