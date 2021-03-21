@@ -26,11 +26,20 @@ Esta función debe sumar los últimos m números del
 arreglo a y almacena el resultado en *suma.
 Utilice la función sumaN.
 */
+int sumaN(int a[], int N) { // Suma N números del arreglo.
+    int i;
+    int tot = 0;
 
-void sumaNultimos(int a[], int n, int m, int * suma) {
+    for(i = 0; i < N; i++) {
+      tot += a[i];
+    }
 
+    return tot;
 }
-
+void sumaNultimos(int a[], int n, int m, int *suma) {
+   *suma = sumaN(a + (n-m), m);
+ 
+}
 /*
 Ejercicio 3.
 Considerando la estructura Persona, programe la función
