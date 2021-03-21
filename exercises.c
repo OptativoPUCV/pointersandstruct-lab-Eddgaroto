@@ -79,7 +79,7 @@ Vector * crearVector(int n) {
   Vector * p = (Vector*) malloc(sizeof(Vector));
   p->capacidad=n;
   p->datos=0;
-   return NULL;
+   return p;
 }
 
 /*
