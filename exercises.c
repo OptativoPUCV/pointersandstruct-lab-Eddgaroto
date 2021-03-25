@@ -76,7 +76,7 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-  Vector * p = (Vector*) malloc(sizeof(Vector));
+  Vector * p = (Vector*) malloc(sizeof(Vector)*n);
     for(int i = 0;i < n;i++){
      p[i].datos = (int *)calloc(n,sizeof(int));
    }
